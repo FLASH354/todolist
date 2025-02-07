@@ -10,8 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-		# Etapes
-    steps:
+    steps:  # Etapes
     # 1. Checkout du code source
     - name: Checkout du code
       uses: actions/checkout@v3
