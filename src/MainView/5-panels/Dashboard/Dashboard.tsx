@@ -1,7 +1,8 @@
 //********** Imports **********//
 import { Box, CssBaseline } from "@mui/material";
 import AppBar from "../../4-templates/AppBar/AppBar";
-import { useEffect, useState } from "react";
+// L'importation de useEffect a été supprimée
+import { useState } from "react";
 import LeftMenu from "../../4-templates/LeftMenu";
 import DashboardContent from "../../4-templates/DashboardContent";
 
